@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: auto;
+    box-sizing: border-box;
+    font-size: 20px;
+}
 body {
     background-color: rgb(184, 255, 251);
     font-family: 'Courier New', Courier, monospace;
@@ -12,10 +18,12 @@ nav {
 }
 .links {
     font-size: larger;
+    font-weight: bold;
     color: rgb(8, 253, 69);
 }
 
 #maintext {
     font-size: 30px;
     color: rgb(75, 66, 255);
+    font-weight: bold;
 }

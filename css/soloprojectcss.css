@@ -1,16 +1,23 @@
 *{
     margin: 0;
-    padding: auto;
+    padding: 0;
     box-sizing: border-box;
     font-size: 20px;
 }
 body {
+    margin: 5em auto;
     background-color: rgb(184, 255, 251);
     font-family: 'Courier New', Courier, monospace;
     font-size: 20px;
     text-align: center;
 }
+ul {
+    list-style: none;
+}
 nav {
+    position: fixed;
+    top: 0;
+    width: calc(100% - 20px);
     background-color: rgb(2, 5, 31);
     padding: 10px;
     margin: 10px;
@@ -27,3 +34,19 @@ nav {
     color: rgb(75, 66, 255);
     font-weight: bold;
 }
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: calc(100% - 20px);
+    background-color: rgb(2, 5, 31);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    font-size: 16px;
+    color: white;
+}
+
+
+
+    

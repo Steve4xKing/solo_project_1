@@ -1,0 +1,21 @@
+body {
+    background-color: rgb(184, 255, 251);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    text-align: center;
+}
+nav {
+    background-color: rgb(2, 5, 31);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.links {
+    font-size: larger;
+    color: rgb(8, 253, 69);
+}
+
+#maintext {
+    font-size: 30px;
+    color: rgb(75, 66, 255);
+}
